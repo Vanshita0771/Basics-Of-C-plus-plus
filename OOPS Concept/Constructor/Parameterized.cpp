@@ -7,9 +7,9 @@ class Box{
 	int length;
 	int width;
 	int height;
-	public:
+
 	//Parametrised constructor--Parameters are passed.When the parameterized constructor is defined and no default constructor is defined explicitly,
-  //the compiler will not implicitly call the default constructor 
+       //the compiler will not implicitly call the default constructor 
 	Box(int l,int h,int w):length(l),height(h),width(w){
 	}
 };
