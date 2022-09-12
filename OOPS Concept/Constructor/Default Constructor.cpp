@@ -7,7 +7,7 @@ class Box{
 	int length;
 	int width;
 	int height;
-	public:
+
 	//Default constructor--No parameters  are passed
 	Box(){
 		cout<<"Enter the length:";
