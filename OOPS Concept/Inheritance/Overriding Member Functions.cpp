@@ -1,5 +1,5 @@
-/*Overriding Member Functions--When the member function of base class is overriden by the member function of child class.Condition should be that member function 
-of base and child class should have same name,same number of parameters and same return type */
+/*Overriding Member Functions--Suppose, the same function is defined in both the derived class and the base class.
+Now if we call this function using the object of the derived class, the function of the derived class is executed. */
 #include <iostream>
 using namespace std;
 class A{
