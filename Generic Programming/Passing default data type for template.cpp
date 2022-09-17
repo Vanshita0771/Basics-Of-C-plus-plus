@@ -8,6 +8,6 @@ int main()
     int a=2;
     float b=8.7;
     cout<<"Addition:"<<add<int>(a,1.3)<<endl;
-
+    cout<<"Addition:"<<add<int,char>(a,'A')<<endl;
     return 0;
 }
