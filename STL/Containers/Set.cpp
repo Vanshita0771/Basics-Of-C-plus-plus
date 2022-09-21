@@ -14,7 +14,7 @@ void print(set<int> s){
 }
 int main(){
 	int n;
-	cout<<"Enter number of elements you want to insert in deque:"<<endl;
+	cout<<"Enter number of elements you want to insert in set:"<<endl;
 	cin>>n;
 	int a;
 	set<int> s;
