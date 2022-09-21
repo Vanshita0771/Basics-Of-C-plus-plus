@@ -31,19 +31,16 @@ int main(){
 	list<int>::iterator it;
 	it=l.begin();
   
-	 list<int> list2 = { 30, 50, 60 };
-    print(list2);
-    l.merge(list2);
-    ++it;
+	list<int> list2 = { 30, 50, 60 };
+        print(list2);
+        l.merge(list2);
+   
 	
-	  l.insert(it,2,78);
-    print(l);
+	l.insert(it,2,78);
+        print(l);
     
-     
-    print(l); 
-    
-    l.sort();
-    print(l);
+        l.sort();
+        print(l);
     
     l.reverse();
     print(l);
